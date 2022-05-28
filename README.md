@@ -83,7 +83,20 @@
 	```
 	
 ## Branching
-- TBC.
+- List all of the branches in your repo.
+-  Add a ```<branch>``` argument to create a new branch with the name ```<branch>```.
+	```
+	git branch
+	```
+- Create  and check out a new branch named ```<branch>```.
+- Drop the -b flag to checkout an existing branch.
+	```
+	git checkout -b <branch>
+	```
+- Renaming a branch you are currently on
+	```
+	git branch -m <new_branch_name>
+	```
 
 ## Logging
 - Display the entire commit history using the default format.
