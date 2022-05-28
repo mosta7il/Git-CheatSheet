@@ -26,7 +26,7 @@
 ## Basics
 
 - Create empty Git repo in specified directory.
--  Run with no arguments to initialize the current directory as a git repository.\
+-  Run with no arguments to initialize the current directory as a git repository.
 	```
 	git init [directory]
 	```
@@ -34,7 +34,9 @@
 - ```<args>``` could be any of:
 	- ``` .``` , ```--all```   or ``` -A``` add all files from the current directory.
 	- ```<list of files>``` add specific files
-	- ```<list of directories>``` add all files from specific directories.\
+	- ```<list of directories>``` add all files from specific directories.
+	
+	
 	```
 	git add <args>
 	```
