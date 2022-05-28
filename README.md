@@ -36,20 +36,22 @@
 	- ```<list of files>``` add specific files
 	- ```<list of directories>``` add all files from specific directories.
 	
-	
+	<br />
 	```
 	git add <args>
 	```
 	
 - List which files are *staged*, *unstaged*, and *untracked*.
-- 
+
+
 	```
 	git status
 	```
 	
 - Commit the staged snapshot.
 - you can use ``` -m <message>``` as the commit message instead of launching a text editor.
-- 
+
+
 	```
 	git commit -m <message>
 	```
