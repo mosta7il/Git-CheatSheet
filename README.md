@@ -32,9 +32,9 @@
 	```
 - Stage all changes  for the next commit.
 - ```<args>``` could be any of:
-	-- ``` .``` , ```--all```   or ``` -A``` add all files from the current directory.
-	-- ```<list of files>``` add specific files
-	-- ```<list of directories>``` add all files from specific directories.
+	- ``` .``` , ```--all```   or ``` -A``` add all files from the current directory.
+	- ```<list of files>``` add specific files
+	- ```<list of directories>``` add all files from specific directories.
 	
 	```
 	git add <args>
