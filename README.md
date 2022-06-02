@@ -52,38 +52,6 @@
 	```
 	git commit -m <message>
 	```
-	
-	
-## Undoing
-- Reset staging area to match most recent commit.
-
-	```
-	git reset
-	```
-	
-- Remove ```<list of files>``` from the staging area, but leave the working directory unchanged. 
-- This unstages files without overwriting any changes.
-
-	```
-	git reset <list of files>
-	```
-	
-- Undo the last commit
-- there are five modes [ soft, hard, mixed, merge, keep] work as follows:
-	- ```--soft``` remove the last commit from the current branch, but the file changes will stay in your working tree, Also the changes will stay on your index.
-	- ```--mixed``` the default mode and quite similar to ```--soft```; keep the changes in your working tree but not on the index;
-	- ```--hard``` **lose all uncommited changes and all untracked files**
-	- ```[ --keep, --merge]``` to be continued.
-
-	``` 
-	git reset <mode> head~1
-	```
-	
-- Create new commit that undoes all of the changes made in ```<commit>```, then apply it to the current branch.
-    ```
-    git revert <commit>
-    ```
-
 
 ## Branching
 - List all of the branches in your repo.
@@ -166,6 +134,37 @@ located on the local filesystem or on a remote machine via HTTP or SSH
     ```
     git pull <remote> <branch>
     ```
+	
+## Undoing
+- Reset staging area to match most recent commit.
+
+	```
+	git reset
+	```
+	
+- Remove ```<list of files>``` from the staging area, but leave the working directory unchanged. 
+- This unstages files without overwriting any changes.
+
+	```
+	git reset <list of files>
+	```
+	
+- Undo the last commit
+- there are five modes [ soft, hard, mixed, merge, keep] work as follows:
+	- ```--soft``` remove the last commit from the current branch, but the file changes will stay in your working tree, Also the changes will stay on your index.
+	- ```--mixed``` the default mode and quite similar to ```--soft```; keep the changes in your working tree but not on the index;
+	- ```--hard``` **lose all uncommited changes and all untracked files**
+	- ```[ --keep, --merge]``` to be continued.
+
+	``` 
+	git reset <mode> head~1
+	```
+	
+- Create new commit that undoes all of the changes made in ```<commit>```, then apply it to the current branch.
+    ```
+    git revert <commit>
+    ```
+
 ## Logging
 - Display the entire commit history using the default format.
 
