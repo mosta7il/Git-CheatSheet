@@ -1,6 +1,17 @@
 # Git-CheatSheet
 
-**Some of mostly used git commands**   
+**Some of most used git commands**   
+
+# Table of Contents
+1. [Configurations](#configurations)
+2. [Basics](#basics)
+3. [Branching](#branching)
+4. [Remote](#remote)
+5. [Undoing](#undoing)
+6. [Logging](#logging)
+<br><br>
+
+
 
 ## Configurations
 
